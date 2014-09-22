@@ -16,7 +16,7 @@
     <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="{% static 'css/contacto.css' %}" rel="stylesheet">
+    <link href="{% static 'css/landing-page.css' %}" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="{% static 'font-awesome-4.1.0/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
@@ -119,7 +119,7 @@
                     </p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
+                    <img class="img-responsive" src="{% static 'img/blow_dry_styling.png' %}" alt="">
                 </div>
             </div>
 
@@ -137,11 +137,20 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+                    <h2 class="section-heading">Cortar + Lavar + Peinar</h2>
+                    <p class="lead"><ul>
+                    <li><h4>pelo corto — 10.00</h4></li>
+                    <li><h4>media melena - 12.00</h4></li>
+                    <li><h4>pelo largo - 13.00</h4></li>
+                    <li><h4>con tubos - 12.00</h4></li>
+                    <li><h4>cabalero - 7.00</h4></li>
+                    <li><h4>niño - 7.00</h4></li>
+
+                    </ul>
+                    </p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
+                    <img class="img-responsive" src="{% static 'img/scissors-cutting-hair.jpg' %}" alt="">
                 </div>
             </div>
 
@@ -149,9 +158,9 @@
         <!-- /.container -->
 
     </div>
-    <!-- /.content-section-b -->
+     <!-- /section a -->
 
-    <div class="content-section-a">
+       <div class="content-section-a">
 
         <div class="container">
 
@@ -159,24 +168,55 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+                    <h2 class="section-heading">Color</h2>
+                    <p class="lead"><ul>
+                    <li><h4>pelo corto — 13.00</h4></li>
+                    <li><h4>media melena - 14.00</h4></li>
+                    <li><h4>pelo largo - 15.00</h4></li>
+                    <li><h4>retoque - 7.00</h4></li>
+                    </ul>
+
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
+                    <img class="img-responsive" src="{% static 'img/hair-color-dye-628x363-TS-152968195.jpg' %}" alt="">
                 </div>
             </div>
 
         </div>
+
         <!-- /.container -->
 
-    </div>
-    <!-- /.content-section-a -->
+      <div style="padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7; "class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Mechas</h2>
+                    <p class="lead"><ul>
+                    <li><h4>pelo corto — 18.00</h4></li>
+                    <li><h4>media melena - 19.00</h4></li>
+                    <li><h4>pelo largo - 20.00</h4></li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="{% static 'img/highlights.jpg' %}" alt="">
+                </div>
+            </div>
+
+        </div>
+
+
+
 
 
 {% endblock content %}
 
-    <!-- /.content-section-a -->
 
     <div class="banner">
 
@@ -200,6 +240,7 @@
 
                     </ul>
                 </div>
+            </div>
             </div>
 
         </div>

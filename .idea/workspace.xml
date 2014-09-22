@@ -23,108 +23,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/diana/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="398" max-vertical-offset="5790">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="galeria.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/diana/templates/galeria.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375" vertical-offset="705" max-vertical-offset="2640">
-              <caret line="54" column="69" selection-start-line="54" selection-start-column="69" selection-end-line="54" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/landing-page 2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.916667" vertical-offset="2603" max-vertical-offset="3570">
-              <caret line="191" column="0" selection-start-line="98" selection-start-column="4" selection-end-line="191" selection-end-column="0" />
+            <state vertical-scroll-proportion="-12.791667" vertical-offset="1763" max-vertical-offset="3570">
+              <caret line="138" column="14" selection-start-line="122" selection-start-column="2" selection-end-line="138" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="servicios.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="servicios.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/diana/templates/servicios.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41709843" vertical-offset="289" max-vertical-offset="1140">
-              <caret line="115" column="51" selection-start-line="115" selection-start-column="51" selection-end-line="115" selection-end-column="51" />
+            <state vertical-scroll-proportion="12.583333" vertical-offset="1712" max-vertical-offset="4245">
+              <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
               <folding>
-                <element signature="tag#head#0;tag#html#0" expanded="false" />
-                <element signature="e#970#1185#0#HTML" expanded="false" />
-                <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="e#1405#1459#0#DjangoTemplate" expanded="false" />
-                <element signature="e#1464#1493#0#DjangoTemplate" expanded="false" />
-                <element signature="e#1498#1565#0#DjangoTemplate" expanded="false" />
-                <element signature="e#1570#1598#0#DjangoTemplate" expanded="false" />
-                <element signature="e#1603#1664#0#DjangoTemplate" expanded="false" />
-                <element signature="e#1669#1698#0#DjangoTemplate" expanded="false" />
-                <element signature="e#1703#1770#0#DjangoTemplate" expanded="false" />
-                <element signature="e#1775#1803#0#DjangoTemplate" expanded="false" />
-                <element signature="e#1808#1867#0#DjangoTemplate" expanded="false" />
-                <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#button#0;tag#div#0;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#ul#0;tag#div#1;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#li#0;tag#ul#0;tag#div#1;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#li#1;tag#ul#0;tag#div#1;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#li#2;tag#ul#0;tag#div#1;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#li#3;tag#ul#0;tag#div#1;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="e#974#1189#0#HTML" expanded="false" />
+                <element signature="e#1409#1463#0#DjangoTemplate" expanded="false" />
+                <element signature="e#1468#1497#0#DjangoTemplate" expanded="false" />
+                <element signature="e#1502#1569#0#DjangoTemplate" expanded="false" />
+                <element signature="e#1574#1602#0#DjangoTemplate" expanded="false" />
+                <element signature="e#1607#1668#0#DjangoTemplate" expanded="false" />
+                <element signature="e#1673#1702#0#DjangoTemplate" expanded="false" />
+                <element signature="e#1707#1774#0#DjangoTemplate" expanded="false" />
+                <element signature="e#1779#1807#0#DjangoTemplate" expanded="false" />
+                <element signature="e#1812#1871#0#DjangoTemplate" expanded="false" />
                 <element signature="n#if#0;n#!!top" expanded="false" />
-                <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#ul#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#li#0;tag#ul#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#li#1;tag#ul#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#li#2;tag#ul#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="e#8102#8156#0#DjangoTemplate" expanded="false" />
-                <element signature="e#8161#8190#0#DjangoTemplate" expanded="false" />
-                <element signature="e#8195#8262#0#DjangoTemplate" expanded="false" />
-                <element signature="e#8267#8295#0#DjangoTemplate" expanded="false" />
-                <element signature="e#8300#8361#0#DjangoTemplate" expanded="false" />
-                <element signature="e#8366#8395#0#DjangoTemplate" expanded="false" />
-                <element signature="e#8400#8467#0#DjangoTemplate" expanded="false" />
-                <element signature="e#8472#8500#0#DjangoTemplate" expanded="false" />
-                <element signature="e#8505#8564#0#DjangoTemplate" expanded="false" />
+                <element signature="n#style#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#9200#9254#0#DjangoTemplate" expanded="false" />
+                <element signature="e#9259#9288#0#DjangoTemplate" expanded="false" />
+                <element signature="e#9293#9360#0#DjangoTemplate" expanded="false" />
+                <element signature="e#9365#9393#0#DjangoTemplate" expanded="false" />
+                <element signature="e#9398#9459#0#DjangoTemplate" expanded="false" />
+                <element signature="e#9464#9493#0#DjangoTemplate" expanded="false" />
+                <element signature="e#9498#9565#0#DjangoTemplate" expanded="false" />
+                <element signature="e#9570#9598#0#DjangoTemplate" expanded="false" />
+                <element signature="e#9603#9662#0#DjangoTemplate" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="525">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,8 +88,8 @@
       <file leaf-file-name="landing-page.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/diana/static/css/landing-page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2393" max-vertical-offset="2790">
-              <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1238" max-vertical-offset="2790">
+              <caret line="101" column="20" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -149,22 +105,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/diana/templates/home.html">
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diana/static/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="960">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state vertical-scroll-proportion="22.384615" vertical-offset="14547" max-vertical-offset="93150">
+              <caret line="931" column="4" selection-start-line="931" selection-start-column="1" selection-end-line="931" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pide_cita.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/diana/templates/pide_cita.html">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/perruqueria/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625" vertical-offset="675" max-vertical-offset="2685">
-              <caret line="54" column="69" selection-start-line="54" selection-start-column="69" selection-end-line="54" selection-end-column="69" />
-              <folding />
+            <state vertical-scroll-proportion="-60.6" vertical-offset="285" max-vertical-offset="2175">
+              <caret line="120" column="1" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
+              <folding>
+                <marker date="1411409549000" expanded="true" signature="2767:2790" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/perruqueria/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.66233766" vertical-offset="0" max-vertical-offset="385">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#227#236#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -200,7 +170,6 @@
         <option value="$PROJECT_DIR$/diana/templates/dfasdf.html" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$USER_HOME$/Downloads/django-scheduler-0.7.2 3/schedule/settings.py" />
-        <option value="$PROJECT_DIR$/perruqueria/settings.py" />
         <option value="$PROJECT_DIR$/diana/static/js/galeria.js" />
         <option value="$USER_HOME$/Downloads/mf_lightbox/index.html" />
         <option value="$PROJECT_DIR$/diana/static/css/page.css" />
@@ -227,12 +196,17 @@
         <option value="$PROJECT_DIR$/diana/static/css/landing-page.css" />
         <option value="$PROJECT_DIR$/diana/static/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/diana/templates/servicios.html" />
+        <option value="$PROJECT_DIR$/Procfile.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/perruqueria/wsgi.py" />
+        <option value="$PROJECT_DIR$/perruqueria/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="y" value="61" />
+    <option name="x" value="-9" />
+    <option name="y" value="22" />
     <option name="width" value="1260" />
     <option name="height" value="774" />
   </component>
@@ -382,6 +356,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="perruqueria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="perruqueria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diana" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -719,7 +715,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="61" width="1260" height="774" extended-state="0" />
+    <frame x="-9" y="22" width="1260" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -782,27 +778,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.virtualenvs/perruqueria/lib/python2.7/site-packages/django/utils/lru_cache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32992327" vertical-offset="1371" max-vertical-offset="2685">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diana/static/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diana/templates/registration/password_reset_confirm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="285">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diana/templates/registration/logged_out.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="195">
@@ -880,14 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/perruqueria/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="746" max-vertical-offset="1890">
-          <caret line="80" column="52" selection-start-line="80" selection-start-column="2" selection-end-line="80" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local_settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
@@ -929,14 +896,6 @@
     <entry file="file://$PROJECT_DIR$/diana/static/img/table.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/perruqueria/lib/python2.7/site-packages/django/contrib/auth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.0308483" vertical-offset="3966" max-vertical-offset="7215">
-          <caret line="359" column="6" selection-start-line="359" selection-start-column="6" selection-end-line="359" selection-end-column="6" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/django-scheduler-0.7.2 3/schedule/models/__init__.py">
@@ -1140,34 +1099,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/landing-page 2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.916667" vertical-offset="2603" max-vertical-offset="3570">
-          <caret line="191" column="0" selection-start-line="98" selection-start-column="4" selection-end-line="191" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diana/templates/base_template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-31.875" vertical-offset="45" max-vertical-offset="2175">
           <caret line="54" column="69" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diana/static/css/landing-page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2393" max-vertical-offset="2790">
-          <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diana/static/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5012593" vertical-offset="54222" max-vertical-offset="93150">
-          <caret line="3681" column="36" selection-start-line="3681" selection-start-column="36" selection-end-line="3681" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1180,74 +1115,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/diana/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="22.384615" vertical-offset="14547" max-vertical-offset="93150">
+          <caret line="931" column="4" selection-start-line="931" selection-start-column="1" selection-end-line="931" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/landing-page 2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.791667" vertical-offset="1763" max-vertical-offset="3570">
+          <caret line="138" column="14" selection-start-line="122" selection-start-column="2" selection-end-line="138" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diana/static/css/landing-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1238" max-vertical-offset="2790">
+          <caret line="101" column="20" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/diana/templates/servicios.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41709843" vertical-offset="289" max-vertical-offset="1140">
-          <caret line="115" column="51" selection-start-line="115" selection-start-column="51" selection-end-line="115" selection-end-column="51" />
+        <state vertical-scroll-proportion="12.583333" vertical-offset="1712" max-vertical-offset="4245">
+          <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
           <folding>
-            <element signature="tag#head#0;tag#html#0" expanded="false" />
-            <element signature="e#970#1185#0#HTML" expanded="false" />
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="e#1405#1459#0#DjangoTemplate" expanded="false" />
-            <element signature="e#1464#1493#0#DjangoTemplate" expanded="false" />
-            <element signature="e#1498#1565#0#DjangoTemplate" expanded="false" />
-            <element signature="e#1570#1598#0#DjangoTemplate" expanded="false" />
-            <element signature="e#1603#1664#0#DjangoTemplate" expanded="false" />
-            <element signature="e#1669#1698#0#DjangoTemplate" expanded="false" />
-            <element signature="e#1703#1770#0#DjangoTemplate" expanded="false" />
-            <element signature="e#1775#1803#0#DjangoTemplate" expanded="false" />
-            <element signature="e#1808#1867#0#DjangoTemplate" expanded="false" />
-            <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#button#0;tag#div#0;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#ul#0;tag#div#1;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#li#0;tag#ul#0;tag#div#1;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#li#1;tag#ul#0;tag#div#1;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#li#2;tag#ul#0;tag#div#1;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#li#3;tag#ul#0;tag#div#1;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="e#974#1189#0#HTML" expanded="false" />
+            <element signature="e#1409#1463#0#DjangoTemplate" expanded="false" />
+            <element signature="e#1468#1497#0#DjangoTemplate" expanded="false" />
+            <element signature="e#1502#1569#0#DjangoTemplate" expanded="false" />
+            <element signature="e#1574#1602#0#DjangoTemplate" expanded="false" />
+            <element signature="e#1607#1668#0#DjangoTemplate" expanded="false" />
+            <element signature="e#1673#1702#0#DjangoTemplate" expanded="false" />
+            <element signature="e#1707#1774#0#DjangoTemplate" expanded="false" />
+            <element signature="e#1779#1807#0#DjangoTemplate" expanded="false" />
+            <element signature="e#1812#1871#0#DjangoTemplate" expanded="false" />
             <element signature="n#if#0;n#!!top" expanded="false" />
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#ul#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#li#0;tag#ul#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#li#1;tag#ul#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#li#2;tag#ul#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="e#8102#8156#0#DjangoTemplate" expanded="false" />
-            <element signature="e#8161#8190#0#DjangoTemplate" expanded="false" />
-            <element signature="e#8195#8262#0#DjangoTemplate" expanded="false" />
-            <element signature="e#8267#8295#0#DjangoTemplate" expanded="false" />
-            <element signature="e#8300#8361#0#DjangoTemplate" expanded="false" />
-            <element signature="e#8366#8395#0#DjangoTemplate" expanded="false" />
-            <element signature="e#8400#8467#0#DjangoTemplate" expanded="false" />
-            <element signature="e#8472#8500#0#DjangoTemplate" expanded="false" />
-            <element signature="e#8505#8564#0#DjangoTemplate" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#9200#9254#0#DjangoTemplate" expanded="false" />
+            <element signature="e#9259#9288#0#DjangoTemplate" expanded="false" />
+            <element signature="e#9293#9360#0#DjangoTemplate" expanded="false" />
+            <element signature="e#9365#9393#0#DjangoTemplate" expanded="false" />
+            <element signature="e#9398#9459#0#DjangoTemplate" expanded="false" />
+            <element signature="e#9464#9493#0#DjangoTemplate" expanded="false" />
+            <element signature="e#9498#9565#0#DjangoTemplate" expanded="false" />
+            <element signature="e#9570#9598#0#DjangoTemplate" expanded="false" />
+            <element signature="e#9603#9662#0#DjangoTemplate" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="525">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="410">
+          <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perruqueria/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-60.6" vertical-offset="285" max-vertical-offset="2175">
+          <caret line="120" column="1" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
+          <folding>
+            <marker date="1411409549000" expanded="true" signature="2767:2790" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perruqueria/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66233766" vertical-offset="0" max-vertical-offset="385">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#227#236#0" expanded="true" />
           </folding>
         </state>
       </provider>
