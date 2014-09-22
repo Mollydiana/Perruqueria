@@ -33,7 +33,7 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
 
 ADMINS = (
     ('Molly Carr', 'Mollydiana@gmailcom'),
@@ -53,9 +53,9 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'debug_toolbar',
-    'datetimewidget',
-    'schedule',
+
+
+
 
 
 )
