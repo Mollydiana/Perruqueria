@@ -45,7 +45,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="home.html">Diana Vilar</a>
+                <a class="navbar-brand" href={% url 'home' %}>Diana Vilar</a>
 
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -58,7 +58,7 @@
                         <a href="{% url 'contacto' %}">contacto</a>
                     </li>
                      <li>
-
+                        <a href="{% url 'galeria' %}">galería</a>
                     </li>
                     <li>
                        {% if client.is_authenticated %}

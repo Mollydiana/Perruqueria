@@ -28,12 +28,20 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    padding-top: 200px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     text-align: center;
-    color: #f8f8f8;
+    color: #8ac43f;
     background-size: cover;
-    background: url(../img/contacto) no-repeat center center;
+    background: url(../img/contacto.png) no-repeat center center;
+    opacity: 0.9;
+}
+
+.intro-header::after {
+    padding-top: 200px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    text-align: center;
+    color: #8ac43f;
+
+    opacity: 0.9;
 }
 
 
@@ -117,11 +125,11 @@ h6 {
 }
 
 .banner {
-    padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/DSC_0627.JPG) no-repeat center center;
+    background: url(../img/polkadots) no-repeat center center;
     opacity: 0.8;
     background-size: cover;
+    height: 300px;
 }
 
 .banner h2 {
@@ -136,13 +144,13 @@ h6 {
 
 .banner-social-buttons {
     float: right;
-    margin-top: 0;
+    margin-top: 120px;
 }
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: right;
-        margin-top: 15px;
+        margin-top: 80px;
 
     }
 }
@@ -150,31 +158,31 @@ h6 {
 @media(max-width:767px) {
     .banner h2 {
         float: right;
-        margin: 0;
+        margin: 50px;
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
         font-size: 3em;
     }
 
     ul.banner-social-buttons > li {
         display: block;
-        margin-bottom: 20px;
-        padding: 0;
+        margin-bottom: 100px;
+        padding: 50px;
         float: right;
     }
 
     ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
+        margin-bottom: 60px;
         float: right;
     }
 }
 
 footer {
-    padding: 50px 0;
+    padding: 25px 0;
     background-color: #f8f8f8;
 
 }
 
 p.copyright {
-    margin: 15px 0 0;
+    /*margin: 15px 0 0;*/
     float: right;
 }

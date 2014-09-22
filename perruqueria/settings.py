@@ -26,6 +26,13 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+ADMINS = (
+    ('Molly Carr', 'Mollydiana@gmailcom'),
+    ('Diana Lourido Vilar', 'Chinhu81@yahoo.com'),
+)
+
+MANAGERS = ADMINS
+
 
 # Application definition
 
@@ -39,6 +46,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'debug_toolbar',
     'datetimewidget',
+    'schedule',
 
 
 )
@@ -57,7 +65,8 @@ ROOT_URLCONF = 'perruqueria.urls'
 
 WSGI_APPLICATION = 'perruqueria.wsgi.application'
 
-
+TEMPLATE_CONTEXT_PROCESSORS = {'django.core.context_processors.request',
+                               'django.contrib.auth.context_processors.auth'}
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
@@ -73,7 +82,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Madrid'
 
 USE_I18N = True
 
