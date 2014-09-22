@@ -168,12 +168,12 @@ footer {
 
 p.copyright {
     /*margin: 15px 0 0;*/
-    position:fixed;
+
     left:0px;
     bottom:0px;
      height:30px;
      width:100%;
-     background:#999;
+
     float: right;
 }
 
@@ -251,9 +251,9 @@ section#register.container {
 
 footer.footer {
 
-    width:100%;
+    width: 100%;
 	height:80px;
-	position:absolute;
+	position:fixed;
 	bottom:0;
 	left:0;
 }
@@ -330,7 +330,8 @@ section#register .text-danger {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #8ac43f;
+    background-color: #999;
+    margin-bottom: 80px;
 }
 
 .btn-primary:hover,
@@ -341,6 +342,7 @@ section#register .text-danger {
     border-color: #8ac43f;
     color: #fff;
     background-color: #8ac43f;
+    margin-bottom: 80px;
 }
 
 .btn-primary:active,
@@ -371,6 +373,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary .badge {
     color: #8ac43f;
     background-color: #fff;
+    margin-bottom: 80px;
 }
 
 .btn-xl {
@@ -383,6 +386,8 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #8ac43f;
+    margin-bottom: 100px;
+    position: inherit;
 }
 
 .btn-xl:hover,
@@ -421,6 +426,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .btn-xl .badge {
-    color: 8ac43f;
+    color: #8ac43f;
     background-color: #fff;
+    margin-bottom: 40px;
 }

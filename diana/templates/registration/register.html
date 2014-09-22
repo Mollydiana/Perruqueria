@@ -2,21 +2,21 @@
 {% load staticfiles %}
 
 {% block content %}
-{% static 'css/login.css' %}
+<link href="{% static 'css/login.css' %}" rel="stylesheet">
 
  <section id="register">
         <div class="container"></div>
             <div class="row">
-                 <div class="col-lg-6 text-center">
+                 <div class="col-lg-12 text-center">
                     <h2 style="margin-top: 100px" class="section-heading">Rexistrarse</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
                 <div class="row">
                 <div class="col-lg-3">
                 </div>
-                <div class="col-lg-3 text-center box">
+                <div class="col-lg-6 text-center box">
                     <form method="post" action=".">
-                <div class="col-lg-3">
+                <div class="col-lg-12">
                 </div>
                 <div class="col-lg-12 text-center box">
                 <form method="post" action=".">
@@ -53,7 +53,7 @@
 {% endblock %}
 {% block footer %}
 
-    <footer style="width:100%; height:80px; position:absolute; bottom:0; left:0;">
+    <footer style="width: 100%; height:80px; position:fixed; bottom:0; left:0;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
