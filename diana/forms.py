@@ -21,7 +21,7 @@ class ProfileUserCreationForm(UserCreationForm):
 
     password2 = forms.CharField(label=("Password"),
                                 widget=forms.PasswordInput(attrs={'class': 'form-control',
-                                                                    'placeholder': 're-enter password *'}))
+                                                                    'placeholder': 'escriba o contrasinal de novo *'}))
 
     class Meta:
         model = Client
@@ -42,4 +42,4 @@ class LoginForm(AuthenticationForm):
 
 class ResetPWord(PasswordResetForm):
     email = forms.EmailField(required=True, widget=forms.TextInput(attrs={'class': 'form-control',
-                                                                          'placeholder': 'teu email *'}))
+                                                                          'placeholder': 'email *'}))

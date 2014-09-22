@@ -34,8 +34,8 @@ def cita(request):
     return render(request, 'pide_cita.html')
 
 
-def contacto(request):
-    return render(request, 'contacto.html')
+def servicios(request):
+    return render(request, 'servicios.html')
 
 
 def galeria(request):

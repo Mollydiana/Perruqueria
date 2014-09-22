@@ -74,13 +74,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#">servicios</a>
+                        <a href="{% url 'servicios' %}">servicios</a>
                     </li>
                      <li>
                         <a href="{% url 'galeria' %}">galería</a>
-                    </li>
-                    <li>
-                        <a href="{% url 'contacto' %}">contacto</a>
                     </li>
                      <li>
 
@@ -99,28 +96,30 @@
         <!-- /.container -->
     </nav>
 {% block content %}
-  <!-- Header -->
-    <div class="intro-header">
+
+    <!-- Page Content -->
+
+    <div class="content-section-a">
 
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="box">
-                    <div class="intro-message">
-{#                        <h1>Diana Vilar</h1>#}
-{#                        <h3>Perruqería</h3>#}
-{#                        <hr class="intro-divider">#}
-{#                        <ul class="list-inline intro-social-buttons">#}
-{#                            <li>#}
-{#                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-yahoo fa-fw"></i> <span class="network-name">Yahoo</span></a>#}
-{#                            </li>#}
-{#                            <li>#}
-{#                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>#}
-{#                            </li>#}
-{#                        </ul>#}
-                        </div>
-                    </div>
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Lavar + Secar</h2>
+                    <p class="lead"><ul>
+                    <li><h4>pelo corto — 8.00</h4></li>
+                    <li><h4>media melena - 9.00</h4></li>
+                    <li><h4>pelo largo - 10.00</h4></li>
+                    <li><h4>plancha - 2.00</h4></li>
+                    <li><h4>tubos - 10.00</h4></li>
+
+                    </ul>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/ipad.png" alt="">
                 </div>
             </div>
 
@@ -128,33 +127,53 @@
         <!-- /.container -->
 
     </div>
-    <!-- /.intro-header -->
-{##}
-{#    <!-- Page Content -->#}
-{##}
-{#    <div class="content-section-a">#}
-{##}
-{#        <div class="container">#}
-{##}
-{#            <div class="row">#}
-{#                <div class="col-lg-5 col-sm-2">#}
-{#                    <hr class="section-heading-spacer">#}
-{#                    <div class="clearfix"></div>#}
-{#                    <h2 class="section-heading">Diana Lourido Vilar<br></h2>#}
-{#                    <div class="lead"> <p>Serano 6</p>#}
-{#                    <p>15130 Corcubión</p>#}
-{#                    <p>627234039#}
-{#                    <p>Dlovidecor@gmail.com</p></div>#}
-{#                </div>#}
-{#                <div class="col-lg-5 col-lg-offset-1 col-sm-5">#}
-{#                    <img  class="img-responsive" src="{% static 'img/hair-scissors-and-comb-blink-images.jpg' %}" alt="">#}
-{#                </div>#}
-{#            </div>#}
-{##}
-{#        </div>#}
-{#        <!-- /.container -->#}
-{##}
-{#    </div>#}
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
+                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/dog.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
+                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/phones.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+
 {% endblock content %}
 
     <!-- /.content-section-a -->

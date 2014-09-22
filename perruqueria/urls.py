@@ -25,7 +25,7 @@ urlpatterns = patterns(
     url(r'^$', 'diana.views.home', name='home'),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^cita/$', 'diana.views.cita', name='cita'),
-    url(r'^contacto/$', 'diana.views.contacto', name='contacto'),
+    url(r'^servicios/$', 'diana.views.servicios', name='servicios'),
     url(r'^galeria/$', 'diana.views.galeria', name='galeria'),
     url(r'^register/$', 'diana.views.register', name='register'),
 
