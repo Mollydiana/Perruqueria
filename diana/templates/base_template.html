@@ -54,9 +54,6 @@
                     <li>
                         <a href="#">servicios</a>
                     </li>
-                    <li>
-                        <a href="{% url 'contacto' %}">contacto</a>
-                    </li>
                      <li>
                         <a href="{% url 'galeria' %}">galería</a>
                     </li>
@@ -64,7 +61,7 @@
                        {% if client.is_authenticated %}
                            <a href="{% url 'logout' %}">sair</a>
                        {% else %}
-                           <a href="{% url 'cita' %}">pide una cita</a>
+                           <a href="{% url 'login' %}">pide una cita</a>
                         {% endif %}
                     </li>
                 </ul>
@@ -77,7 +74,7 @@
 
 
 {% endblock content %}
-
+{% block footer %}
     <!-- /.content-section-a -->
 
     <div class="banner">
@@ -140,3 +137,4 @@
 </body>
 
 </html>
+{% endblock footer %}

@@ -1,0 +1,426 @@
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 100px;
+}
+
+
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section-heading-spacer {
+    text-align: center;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    color: #f8f8f8;
+    background: url(../img/polkadots) no-repeat center center;
+    opacity: 0.8;
+    background-size: cover;
+    height: 300px;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 120px;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: right;
+        margin-top: 80px;
+
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        float: right;
+        margin: 50px;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 100px;
+        padding: 50px;
+        float: right;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 60px;
+        float: right;
+    }
+}
+
+footer {
+
+    padding: 25px 0;
+    width:100%;
+	height:80px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+
+p.copyright {
+    /*margin: 15px 0 0;*/
+    position:fixed;
+    left:0px;
+    bottom:0px;
+     height:30px;
+     width:100%;
+     background:#999;
+    float: right;
+}
+
+
+
+section#register .section-heading {
+    margin-top: 400px;
+    color: #fff;
+}
+
+section#register .form-group {
+    margin-bottom: 25px;
+}
+
+section#register .form-group input,
+section#register .form-group textarea {
+    padding: 20px;
+}
+
+section#register .form-group input.form-control {
+    height: auto;
+}
+
+section#register .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#register .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+
+section#register::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#register:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#register::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#register:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#register .text-danger {
+    color: #e74c3c;
+}
+
+
+section#register.container {
+
+    /*background-color: #222;*/
+    /*background: url(../img/polkadots) no-repeat center center;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+
+    margin-top: 400px;
+}
+
+footer.footer {
+
+    width:100%;
+	height:80px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+
+section#register {
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#register .section-heading {
+    color: #fff;
+}
+
+section#register .form-group {
+    margin-bottom: 25px;
+}
+
+section#register .form-group input,
+section#register .form-group textarea {
+    padding: 20px;
+}
+
+section#register .form-group input.form-control {
+    height: auto;
+}
+
+section#register .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#register .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+
+section#register::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#register:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#register::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#register:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#register .text-danger {
+    color: #e74c3c;
+}
+
+
+.btn-primary {
+    border-color: #999;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #8ac43f;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #8ac43f;
+    color: #fff;
+    background-color: #8ac43f;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #8ac43f;
+    background-color: #8ac43f;
+}
+
+.btn-primary .badge {
+    color: #8ac43f;
+    background-color: #fff;
+}
+
+.btn-xl {
+    padding: 20px 40px;
+    border-color: #999;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #8ac43f;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #8ac43f;
+    color: #fff;
+    background-color: #8ac43f;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: #8ac43f;
+    background-color: #8ac43f;
+}
+
+.btn-xl .badge {
+    color: 8ac43f;
+    background-color: #fff;
+}

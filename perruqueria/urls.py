@@ -1,3 +1,5 @@
+from diana.forms import LoginForm
+
 try:
     from django.conf.urls import patterns, url
 except ImportError:
@@ -25,11 +27,12 @@ urlpatterns = patterns(
     url(r'^cita/$', 'diana.views.cita', name='cita'),
     url(r'^contacto/$', 'diana.views.contacto', name='contacto'),
     url(r'^galeria/$', 'diana.views.galeria', name='galeria'),
+    url(r'^register/$', 'diana.views.register', name='register'),
 
 
 
-    url(r'^login/$', 'django.contrib.auth.views.login', name='login'),
-    url(r'^logout/$', 'django.contrib.auth.views.logout', name='logout'),
+    url(r'^login/$', 'django.contrib.auth.views.login', kwargs={'authentication_form': LoginForm}, name='login'),
+    url(r'^logout/$', 'django.contrib.auth.views.logout', kwargs={'next_page': '/'}, name='logout'),
     url(r'^password_reset/$', 'django.contrib.auth.views.password_reset', name='password_reset'),
     url(r'^password_reset/done/$', 'django.contrib.auth.views.password_reset_done', name='password_reset_done'),
 

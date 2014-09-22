@@ -57,9 +57,6 @@
                      <li>
                         <a href="{% url 'galeria' %}">galería</a>
                     </li>
-                    <li>
-                        <a href="{% url 'contacto' %}">contacto</a>
-                    </li>
                      <li>
 
                     </li>
@@ -67,7 +64,7 @@
                        {% if client.is_authenticated %}
                            <a href="{% url 'logout' %}">sair</a>
                        {% else %}
-                           <a href="{% url 'cita' %}">pide una cita</a>
+                           <a href="{% url 'login' %}">pide una cita</a>
                         {% endif %}
                     </li>
                 </ul>
@@ -81,8 +78,8 @@
 
 
 <div class="gallery" align="center">
-    <img onmouseover="document.getElementById('preview').src=document.getElementById('img4').src" id="img4" src="{% static 'img/IMG_20140921_190218.jpg' %}" alt="Image Not Loaded"/>
-    <img onmouseover="document.getElementById('preview').src=document.getElementById('img2').src" id="img2" src="{% static 'img/table.JPG' %}" alt="Image Not Loaded"/>
+    <div id="toptwo"><img onmouseover="document.getElementById('preview').src=document.getElementById('img4').src" id="img4" src="{% static 'img/IMG_20140921_190218.jpg' %}" alt="Image Not Loaded"/>
+    <img onmouseover="document.getElementById('preview').src=document.getElementById('img2').src" id="img2" src="{% static 'img/table.JPG' %}" alt="Image Not Loaded"/></div>
     <img onmouseover="document.getElementById('preview').src=document.getElementById('img3').src" id="img3" src="{% static 'img/IMG_20140921_190057.jpg' %}" alt="Image Not Loaded"/>
     <img onmouseover="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="{% static 'img/IMG_20140921_185913.jpg' %}" alt="Image Not Loaded"/>
 
