@@ -26,8 +26,8 @@
       <file leaf-file-name="galeria.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/diana/templates/galeria.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1666665" vertical-offset="1043" max-vertical-offset="2655">
-              <caret line="81" column="191" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="191" />
+            <state vertical-scroll-proportion="-14.375" vertical-offset="870" max-vertical-offset="2685">
+              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -36,35 +36,48 @@
       <file leaf-file-name="galeria.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/diana/static/css/galeria.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3224" max-vertical-offset="3705">
-              <caret line="217" column="27" selection-start-line="217" selection-start-column="27" selection-end-line="217" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3304" max-vertical-offset="3720">
+              <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="table.jpg" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/diana/static/img/table.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="contacto.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/diana/templates/contacto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-47.5" vertical-offset="0" max-vertical-offset="3120">
-              <caret line="76" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+            <state vertical-scroll-proportion="-14.458333" vertical-offset="493" max-vertical-offset="3450">
+              <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacto.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="contacto.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/diana/static/css/contacto.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2124" max-vertical-offset="2895">
-              <caret line="146" column="18" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.14962594" vertical-offset="390" max-vertical-offset="2925">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pide_cita.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diana/templates/pide_cita.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.875" vertical-offset="570" max-vertical-offset="2685">
+              <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diana/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.1666666" vertical-offset="583" max-vertical-offset="960">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,7 +106,6 @@
         <option value="$PROJECT_DIR$/local_settings.py" />
         <option value="$PROJECT_DIR$/diana/static/index.html" />
         <option value="$PROJECT_DIR$/diana/static/css/agency.css" />
-        <option value="$PROJECT_DIR$/diana/static/css/landing-page.css" />
         <option value="$PROJECT_DIR$/diana/static/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/diana/templates/registration/password_reset_form.html" />
         <option value="$PROJECT_DIR$/diana/templates/registration/register.html" />
@@ -108,12 +120,9 @@
         <option value="$PROJECT_DIR$/diana/templates/dfasdf.html" />
         <option value="$PROJECT_DIR$/diana/templates/home.html" />
         <option value="$PROJECT_DIR$/diana/templates/test.html" />
-        <option value="$PROJECT_DIR$/diana/templates/pide_cita.html" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$USER_HOME$/Downloads/django-scheduler-0.7.2 3/schedule/settings.py" />
         <option value="$PROJECT_DIR$/perruqueria/settings.py" />
-        <option value="$PROJECT_DIR$/diana/static/css/contacto.css" />
-        <option value="$PROJECT_DIR$/diana/templates/contacto.html" />
         <option value="$PROJECT_DIR$/perruqueria/urls.py" />
         <option value="$PROJECT_DIR$/diana/views.py" />
         <option value="$PROJECT_DIR$/diana/templates/base_template.html" />
@@ -121,15 +130,19 @@
         <option value="$USER_HOME$/Downloads/mf_lightbox/index.html" />
         <option value="$PROJECT_DIR$/diana/static/css/page.css" />
         <option value="$PROJECT_DIR$/diana/templates/galeria.html" />
+        <option value="$PROJECT_DIR$/diana/templates/contacto.html" />
         <option value="$PROJECT_DIR$/diana/static/css/galeria.css" />
+        <option value="$PROJECT_DIR$/diana/templates/pide_cita.html" />
+        <option value="$PROJECT_DIR$/diana/static/css/landing-page.css" />
+        <option value="$PROJECT_DIR$/diana/static/css/contacto.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
+    <option name="x" value="-36" />
     <option name="y" value="22" />
     <option name="width" value="1260" />
-    <option name="height" value="653" />
+    <option name="height" value="753" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -295,28 +308,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="perruqueria" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="perruqueria" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diana" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -596,7 +587,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="22" width="1260" height="653" extended-state="0" />
+    <frame x="-36" y="22" width="1260" height="753" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -609,7 +600,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36312848" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30612245" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -840,22 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diana/templates/pide_cita.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="2685">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diana/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="960">
-          <caret line="31" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
@@ -913,14 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diana/static/css/landing-page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="2775">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diana/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3472" max-vertical-offset="93150">
@@ -969,22 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diana/static/css/contacto.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2124" max-vertical-offset="2895">
-          <caret line="146" column="18" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diana/templates/contacto.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-47.5" vertical-offset="0" max-vertical-offset="3120">
-          <caret line="76" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diana/static/js/galeria.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6188605" vertical-offset="30" max-vertical-offset="26595">
@@ -1005,25 +956,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/diana/static/img/DSC_0626.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diana/static/img/Screen Shot 2014-09-20 at 6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diana/static/img/table.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/diana/templates/galeria.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1666665" vertical-offset="1043" max-vertical-offset="2655">
-          <caret line="81" column="191" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="191" />
+        <state vertical-scroll-proportion="-14.375" vertical-offset="870" max-vertical-offset="2685">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diana/templates/contacto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.458333" vertical-offset="493" max-vertical-offset="3450">
+          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diana/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1666666" vertical-offset="583" max-vertical-offset="960">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diana/static/css/landing-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.015873" vertical-offset="342" max-vertical-offset="2790">
+          <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diana/templates/pide_cita.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875" vertical-offset="570" max-vertical-offset="2685">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/diana/static/css/galeria.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3224" max-vertical-offset="3705">
-          <caret line="217" column="27" selection-start-line="217" selection-start-column="27" selection-end-line="217" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3319" max-vertical-offset="3720">
+          <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diana/static/img/table.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/diana/static/css/contacto.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14962594" vertical-offset="390" max-vertical-offset="2925">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
