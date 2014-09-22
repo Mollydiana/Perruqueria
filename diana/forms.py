@@ -6,7 +6,10 @@ from diana.models import Client
 
 class ProfileUserCreationForm(UserCreationForm):
 
-    email = forms.EmailField(required=True, widget=forms.TextInput(attrs={'class': 'form-control',
+    phone = forms.EmailField(required=True, widget=forms.TextInput(attrs={'class': 'form-control',
+                                                                          'placeholder': 'numero de telefono *'}))
+
+    email = forms.EmailField(required=False, widget=forms.TextInput(attrs={'class': 'form-control',
                                                                           'placeholder': 'email *'}))
 
     first_name = forms.EmailField(required=True, widget=forms.TextInput(attrs={'class': 'form-control',
@@ -25,7 +28,7 @@ class ProfileUserCreationForm(UserCreationForm):
 
     class Meta:
         model = Client
-        fields = ("email", "first_name", "last_name", "password1", "password2")
+        fields = ('phone', "email", "first_name", "last_name", "password1", "password2")
 
 
 class LoginForm(AuthenticationForm):
