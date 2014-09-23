@@ -10,6 +10,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+import schedule
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # STATIC_ROOT = 'staticfiles'
@@ -53,10 +54,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-
-
-
+    'schedule',
 
 )
 
@@ -68,6 +66,8 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+
 )
 
 ROOT_URLCONF = 'perruqueria.urls'
@@ -75,7 +75,8 @@ ROOT_URLCONF = 'perruqueria.urls'
 WSGI_APPLICATION = 'perruqueria.wsgi.application'
 
 TEMPLATE_CONTEXT_PROCESSORS = {'django.core.context_processors.request',
-                               'django.contrib.auth.context_processors.auth'}
+                               'django.contrib.auth.context_processors.auth',
+                               'django.core.context_processors.request'}
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 

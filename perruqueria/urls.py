@@ -1,8 +1,10 @@
+from django.views.generic import TemplateView
 from diana.forms import LoginForm
 from django.conf.urls import patterns, include, url
 from django.conf.urls.static import static
 from django.contrib import admin
 from perruqueria import settings
+
 
 
 urlpatterns = patterns(
@@ -14,6 +16,8 @@ urlpatterns = patterns(
     url(r'^servicios/$', 'diana.views.servicios', name='servicios'),
     url(r'^galeria/$', 'diana.views.galeria', name='galeria'),
     url(r'^register/$', 'diana.views.register', name='register'),
+    url(r'^fullcalendar/', TemplateView.as_view(template_name="fullcalendar.html"),),
+    url(r'^schedule/', include('schedule.urls')),
 
 
 
