@@ -25,12 +25,12 @@ def register(request):
         if form.is_valid():
             user = form.save()
             # user.email_user("Welcome!", "Thank you for signing up for our website.")
-            text_content = 'Grazas por se rexistrar!, {}{}'.format(user.first_name, user.last_name)
-            html_content = '<h2>Thanks {}{} for signing up!</h2> <div>I hope you enjoy using our site</div>'.format(user.first_name, user.last_name)
-            msg = EmailMultiAlternatives("Welcome!", text_content, settings.DEFAULT_FROM_EMAIL, [user.email])
+            text_content = 'Grazas por rexistrar!, {}{}'.format(user.first_name, user.last_name)
+            html_content = '<h2>Grazas por rexistrar!</h2>'.format(user.first_name)
+            msg = EmailMultiAlternatives("Benvido!", text_content, settings.DEFAULT_FROM_EMAIL, [user.email])
             msg.attach_alternative(html_content, "text/html")
             msg.send()
-            return redirect("home")
+            return redirect("login")
     else:
         form = ProfileUserCreationForm()
 

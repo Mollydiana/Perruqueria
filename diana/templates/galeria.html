@@ -51,20 +51,35 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                     <li>
+
+                    <li> {% if user.is_authenticated %}</li>
+                    <li>
                         <a href="{% url 'servicios' %}">servizos</a>
                     </li>
                      <li>
                         <a href="{% url 'galeria' %}">galería</a>
                     </li>
-
-                       <li>
-                       {% if client.is_authenticated %}
-                           <a href="{% url 'logout' %}">saír</a>
-                       {% else %}
-                           <a href="{% url 'login' %}">pide unha cita</a>
-                        {% endif %}
+                    <li>
+                        <a href="{% url 'fullcalendar' %}">calendario</a>
                     </li>
+                    <li>
+                            <a class="page-scroll" href="{% url 'logout' %}">Logout</a>
+                    </li>
+                    {% else %}
+                         <li>
+                        <a href="{% url 'servicios' %}">servizos</a>
+                    </li>
+                     <li>
+                        <a href="{% url 'galeria' %}">galería</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'fullcalendar' %}">calendario</a>
+                    </li>
+                    <li>
+                         <a href="{% url 'login' %}">pide unha cita</a>
+                    </li>
+                    {% endif %}
+
 
                 </ul>
             </div>
@@ -72,15 +87,14 @@
         </div>
         <!-- /.container -->
     </nav>
-
 {% block content %}
 
 
 <div class="gallery" align="center">
     <div id="toptwo"><img onmouseover="document.getElementById('preview').src=document.getElementById('img4').src" id="img4" src="{% static 'img/IMG_20140921_190218.jpg' %}" alt="Image Not Loaded"/>
-    <img onmouseover="document.getElementById('preview').src=document.getElementById('img2').src" id="img2" src="{% static 'img/IMG_20140921_185212.jpg' %}" alt="Image Not Loaded"/> </div>
+    <img onmouseover="document.getElementById('preview').src=document.getElementById('img2').src" id="img2" src="{% static 'img/IMG_20140921_185212.jpg' %}" alt="Image Not Loaded"/></div>
     <img onmouseover="document.getElementById('preview').src=document.getElementById('img3').src" id="img3" src="{% static 'img/IMG_20140921_190057.jpg' %}" alt="Image Not Loaded"/>
-    <img onmouseover="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="{% static 'img/IMG_20140921_185913.jpg' %}" alt="Image Not Loaded"/></div>
+    <img onmouseover="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="{% static 'img/IMG_20140921_185913.jpg' %}" alt="Image Not Loaded"/>
 
 
 {#<div class="preview" align="center">#}

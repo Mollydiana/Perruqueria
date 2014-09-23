@@ -51,6 +51,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+
+                    <li> {% if user.is_authenticated %}</li>
                     <li>
                         <a href="{% url 'servicios' %}">servizos</a>
                     </li>
@@ -61,12 +63,23 @@
                         <a href="{% url 'fullcalendar' %}">calendario</a>
                     </li>
                     <li>
-                       {% if client.is_authenticated %}
-                           <a href="{% url 'logout' %}">saír</a>
-                       {% else %}
-                           <a href="{% url 'login' %}">pide unha cita</a>
-                        {% endif %}
+                            <a class="page-scroll" href="{% url 'logout' %}">Logout</a>
                     </li>
+                    {% else %}
+                         <li>
+                        <a href="{% url 'servicios' %}">servizos</a>
+                    </li>
+                     <li>
+                        <a href="{% url 'galeria' %}">galería</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'fullcalendar' %}">calendario</a>
+                    </li>
+                    <li>
+                         <a href="{% url 'login' %}">pide unha cita</a>
+                    </li>
+                    {% endif %}
+
 
                 </ul>
             </div>
