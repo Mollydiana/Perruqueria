@@ -52,14 +52,14 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="{% url 'servicios' %}">servicios</a>
+                        <a href="{% url 'servicios' %}">servizos</a>
                     </li>
                      <li>
                         <a href="{% url 'galeria' %}">galería</a>
                     </li>
                     <li>
                        {% if client.is_authenticated %}
-                           <a href="{% url 'logout' %}">sair</a>
+                           <a href="{% url 'logout' %}">saír</a>
                        {% else %}
                            <a href="{% url 'login' %}">pide unha cita</a>
                         {% endif %}
