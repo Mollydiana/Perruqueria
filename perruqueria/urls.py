@@ -7,6 +7,8 @@ from perruqueria import settings
 
 
 
+
+
 urlpatterns = patterns(
     '',
     # basic urls for templates and registration
@@ -17,7 +19,6 @@ urlpatterns = patterns(
     url(r'^register/$', 'diana.views.register', name='register'),
     url(r'^fullcalendar/', TemplateView.as_view(template_name="fullcalendar.html"), name="fullcalendar"),
     url(r'^schedule/', include('schedule.urls')),
-
 
 
     url(r'^login/$', 'django.contrib.auth.views.login', kwargs={'authentication_form': LoginForm}, name='login'),

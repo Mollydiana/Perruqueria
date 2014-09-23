@@ -52,7 +52,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
 
-                    <li> {% if user.is_authenticated %}</li>
+                    {% if user.is_authenticated %}
                     <li>
                         <a href="{% url 'servicios' %}">servizos</a>
                     </li>
@@ -63,7 +63,7 @@
                         <a href="{% url 'fullcalendar' %}">calendario</a>
                     </li>
                     <li>
-                            <a class="page-scroll" href="{% url 'logout' %}">Logout</a>
+                       <a href="{% url 'logout' %}">saír</a>
                     </li>
                     {% else %}
                          <li>
@@ -106,10 +106,13 @@
                 <div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons">
                         <li>
-{#                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>#}
-{#                        </li>#}
-{#                        <li>#}
-{#                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-yahoo fa-fw"></i> <span class="network-name">yahoo</span></a>#}
+                            <a href="https://www.facebook.com/perruqueriadiana.vilar?fref=ts" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="mailto:Chinhu81@yahoo.com" class="btn btn-default btn-lg"><i class="fa fa-yahoo fa-fw"></i> <span class="network-name">Yahoo</span></a>
+                        </li>
+                        <li>
+                            <a href="mailto:dilovideocor@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-google fa-fw"></i> <span class="network-name">Gmail</span></a>
                         </li>
 
                     </ul>

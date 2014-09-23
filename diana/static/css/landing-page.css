@@ -143,13 +143,13 @@ h6 {
 
 .banner-social-buttons {
     float: right;
-    margin-top: 125px;
+    margin-top: 80px;
 }
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: right;
-        margin-top: 100px;
+        margin-top: 80px;
 
     }
 }
@@ -157,20 +157,20 @@ h6 {
 @media(max-width:767px) {
     .banner h2 {
         float: right;
-        margin: 0;
+        margin: 50px;
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
         font-size: 3em;
     }
 
     ul.banner-social-buttons > li {
         display: block;
-        margin-bottom: 20px;
-        padding: 0;
+        margin-bottom: 100px;
+        padding: 50px;
         float: right;
     }
 
     ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
+        margin-bottom: 60px;
         float: right;
     }
 }

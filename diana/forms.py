@@ -49,12 +49,12 @@ class ProfileUserCreationForm(UserCreationForm):
 
 class LoginForm(AuthenticationForm):
 
-    first_name = forms.CharField(required=True,
+    username = forms.CharField(required=True,
                                widget=forms.TextInput(attrs={'class': 'form-control',
-                                                            'placeholder': 'nome *'}))
-    last_name = forms.CharField(required=True,
-                               widget=forms.TextInput(attrs={'class': 'form-control',
-                                                            'placeholder': 'apelido *'}))
+                                                            'placeholder': 'nome de usario *'}))
+    # last_name = forms.CharField(required=True,
+    #                            widget=forms.TextInput(attrs={'class': 'form-control',
+    #                                                         'placeholder': 'apelido *'}))
     password = forms.CharField(label=("Password"),
                                widget=forms.PasswordInput(attrs={'class': 'form-control',
                                                                 'placeholder': 'contrasena *'}))
