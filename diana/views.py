@@ -11,10 +11,6 @@ def home(request):
     return render(request, 'home.html')
 
 
-def cita(request):
-    return render(request, 'pide_cita.html')
-
-
 def servicios(request):
     return render(request, 'servicios.html')
 
@@ -34,7 +30,7 @@ def register(request):
             msg = EmailMultiAlternatives("Welcome!", text_content, settings.DEFAULT_FROM_EMAIL, [user.email])
             msg.attach_alternative(html_content, "text/html")
             msg.send()
-            return redirect("cita")
+            return redirect("home")
     else:
         form = ProfileUserCreationForm()
 

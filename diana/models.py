@@ -2,14 +2,30 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 
 
-
-
 class Client(AbstractUser):
-    telefono = models.CharField(max_length=12, help_text="Telefono de contacto", blank=True, null=True)
+
+    def __unicode__(self):
+        return self.username
 
 
-class Schedule(models.Model):
-    cliente = models.ForeignKey(Client, related_name="clients")
-    tiempo = models.DateField(blank=True, null=True)
+class Location(models.Model):
+    name = models.CharField(max_length=60)
 
+    def __unicode__(self):
+        return self.name
+
+
+class List(models.Model):
+    profile = models.ForeignKey(Client, related_name="lists")
+    location = models.ManyToManyField(Location, related_name="lists")
+    list_name = models.CharField(max_length=60)
+
+    def __unicode__(self):
+        return self.list_name
+
+
+class Picture(models.Model):
+    image = models.ImageField(upload_to='travel_images', blank=True, null=True)
+    description = models.CharField(max_length=140)
+    location = models.ForeignKey(Location, related_name="pictures")
 

@@ -6,32 +6,49 @@ from diana.models import Client
 
 class ProfileUserCreationForm(UserCreationForm):
 
-    phone = forms.EmailField(required=True, widget=forms.TextInput(attrs={'class': 'form-control',
-                                                                          'placeholder': 'numero de telefono *'}))
+    first_name = forms.CharField(required=True,
+                               widget=forms.TextInput(attrs={'class': 'form-control',
+                                                            'placeholder': 'nome *'}))
+    last_name = forms.CharField(required=True,
+                               widget=forms.TextInput(attrs={'class': 'form-control',
+                                                            'placeholder': 'apelido *'}))
 
-    email = forms.EmailField(required=False, widget=forms.TextInput(attrs={'class': 'form-control',
+
+    username = forms.CharField(required=True, widget=forms.TextInput(attrs={'class': 'form-control',
+                                                                          'placeholder': 'nome de usario *'}))
+
+
+    email = forms.CharField(required=False, widget=forms.TextInput(attrs={'class': 'form-control',
                                                                           'placeholder': 'email *'}))
-
-    first_name = forms.EmailField(required=True, widget=forms.TextInput(attrs={'class': 'form-control',
-                                                                               'placeholder': 'nome *'}))
-
-    last_name = forms.EmailField(required=True, widget=forms.TextInput(attrs={'class': 'form-control',
-                                                                              'placeholder': 'apelido *'}))
 
     password1 = forms.CharField(label=("password"),
                                 widget=forms.PasswordInput(attrs={'class': 'form-control',
                                                                     'placeholder': 'contrasena *'}))
 
-    password2 = forms.CharField(label=("Password"),
+    password2 = forms.CharField(label=("password"),
                                 widget=forms.PasswordInput(attrs={'class': 'form-control',
                                                                     'placeholder': 'escriba o contrasinal de novo *'}))
 
     class Meta:
         model = Client
-        fields = ('phone', "email", "first_name", "last_name", "password1", "password2")
+        fields = ("email", "username", "password1", "password2")
+
+    def clean_username(self):
+        # Since User.username is unique, this check is redundant,
+        # but it sets a nicer error message than the ORM. See #13147.
+        username = self.cleaned_data["username"]
+        try:
+            Client.objects.get(username=username)
+        except Client.DoesNotExist:
+            return username
+        raise forms.ValidationError(
+            self.error_messages['duplicate_username'],
+            code='duplicate_username',
+        )
 
 
 class LoginForm(AuthenticationForm):
+
     first_name = forms.CharField(required=True,
                                widget=forms.TextInput(attrs={'class': 'form-control',
                                                             'placeholder': 'nome *'}))

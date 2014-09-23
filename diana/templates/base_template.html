@@ -58,12 +58,16 @@
                         <a href="{% url 'galeria' %}">galería</a>
                     </li>
                     <li>
+                        <a href="{% url 'fullcalendar' %}">calendario</a>
+                    </li>
+                    <li>
                        {% if client.is_authenticated %}
                            <a href="{% url 'logout' %}">saír</a>
                        {% else %}
                            <a href="{% url 'login' %}">pide unha cita</a>
                         {% endif %}
                     </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
