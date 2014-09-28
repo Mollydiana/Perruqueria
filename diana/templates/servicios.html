@@ -52,33 +52,33 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
 
-                    {% if user.is_authenticated %}
+
                     <li>
                         <a href="{% url 'servicios' %}">servizos</a>
                     </li>
                      <li>
                         <a href="{% url 'galeria' %}">galería</a>
                     </li>
-                    <li>
-                        <a href="{% url 'fullcalendar' %}">calendario</a>
-                    </li>
-                    <li>
-                       <a href="{% url 'logout' %}">saír</a>
-                    </li>
-                    {% else %}
-                         <li>
-                        <a href="{% url 'servicios' %}">servizos</a>
-                    </li>
-                     <li>
-                        <a href="{% url 'galeria' %}">galería</a>
-                    </li>
-                    <li>
-                        <a href="{% url 'fullcalendar' %}">calendario</a>
-                    </li>
-                    <li>
-                         <a href="{% url 'login' %}">pide unha cita</a>
-                    </li>
-                    {% endif %}
+{#                    <li>#}
+{#                        <a href="{% url 'fullcalendar' %}">calendario</a>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                       <a href="{% url 'logout' %}">saír</a>#}
+{#                    </li>#}
+{#                    {% else %}#}
+{#                         <li>#}
+{#                        <a href="{% url 'servicios' %}">servizos</a>#}
+{#                    </li>#}
+{#                     <li>#}
+{#                        <a href="{% url 'galeria' %}">galería</a>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                        <a href="{% url 'fullcalendar' %}">calendario</a>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                         <a href="{% url 'login' %}">pide unha cita</a>#}
+{#                    </li>#}
+{#                    {% endif %}#}
 
 
                 </ul>
@@ -101,9 +101,9 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Lavar + Secar</h2>
                     <p class="lead"><ul>
-                    <li><h4>pelo corto — 8.00</h4></li>
+                    <li><h4>cabelo curto — 8.00</h4></li>
                     <li><h4>media melena - 9.00</h4></li>
-                    <li><h4>pelo largo - 10.00</h4></li>
+                    <li><h4>cabelo longo - 10.00</h4></li>
                     <li><h4>plancha - 2.00</h4></li>
                     <li><h4>tubos - 10.00</h4></li>
 
@@ -129,14 +129,14 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Cortar + Lavar + Peinar</h2>
+                    <h2 class="section-heading">Lavar + Cortar + Secar</h2>
                     <p class="lead"><ul>
-                    <li><h4>pelo corto — 10.00</h4></li>
-                    <li><h4>media melena - 12.00</h4></li>
-                    <li><h4>pelo largo - 13.00</h4></li>
+                    <li><h4>cabelo curto — 12.00</h4></li>
+                    <li><h4>media melena - 13.00</h4></li>
+                    <li><h4>cabelo longo - 15.00</h4></li>
                     <li><h4>con tubos - 12.00</h4></li>
-                    <li><h4>cabalero - 7.00</h4></li>
-                    <li><h4>niño - 7.00</h4></li>
+                    <li><h4>cabaleiro - 7.00</h4></li>
+                    <li><h4>neño/a - 7.00</h4></li>
 
                     </ul>
                     </p>
@@ -162,9 +162,9 @@
                 <div class="clearfix"></div>
                 <h2 class="section-heading">Color</h2>
                 <p class="lead"><ul>
-                <li><h4>pelo corto — 13.00</h4></li>
+                <li><h4>cabelo curto — 13.00</h4></li>
                 <li><h4>media melena - 14.00</h4></li>
-                <li><h4>pelo largo - 15.00</h4></li>
+                <li><h4>cabelo longo - 15.00</h4></li>
                 <li><h4>retoque - 7.00</h4></li>
                 </ul>
             </div>
@@ -188,9 +188,9 @@
                 <div class="clearfix"></div>
                 <h2 class="section-heading">Mechas</h2>
                 <p class="lead"><ul>
-                <li><h4>pelo corto — 18.00</h4></li>
+                <li><h4>cabelo curto — 18.00</h4></li>
                 <li><h4>media melena - 19.00</h4></li>
-                <li><h4>pelo largo - 20.00</h4></li>
+                <li><h4>cabelo longo - 20.00</h4></li>
                 </ul>
 
             </div>
@@ -212,9 +212,9 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Moldeado</h2>
                     <p class="lead"><ul>
-                    <li><h4>pelo corto — 18.00</h4></li>
+                    <li><h4>cabelo curto — 18.00</h4></li>
                     <li><h4>media melena - 19.00</h4></li>
-                    <li><h4>pelo largo - 20.00</h4></li>
+                    <li><h4>cabelo longo - 20.00</h4></li>
 
 
                     </ul>
@@ -245,7 +245,7 @@
 
                 <li><h4>media melena -17.00 / 15.00</h4></li>
                 <li><h4>pelo largo - 17.00 / 20.00 </h4></li>
-                <li><h4>movia — 60.00</h4></li>
+                <li><h4>novia — 60.00</h4></li>
                 <li><h4>ampolla antic. — 3.00</h4></li>
                 </ul>
 
@@ -270,8 +270,8 @@
                     <h2 class="section-heading">Estética Cera</h2>
                     <p class="lead"><ul>
                     <li><h4>labios, cejas — 3.00</h4></li>
-                    <li><h4>media pernas - 5.00</h4></li>
-                    <li><h4>perna enteira - 9.00</h4></li>
+                    <li><h4>media pierna - 5.00</h4></li>
+                    <li><h4>pierna entera - 9.00</h4></li>
                     <li><h4>axila o ingle - 5.00</h4></li>
 
 
@@ -299,7 +299,7 @@
             <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                 <hr class="section-heading-spacer">
                 <div class="clearfix"></div>
-                <h2 class="section-heading">Outras</h2>
+                <h2 class="section-heading">Outros servicios</h2>
                 <p class="lead"><ul>
 
                 <li><h4>manicura - 5.00</h4></li>

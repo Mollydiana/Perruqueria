@@ -52,33 +52,33 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
 
-                    {% if user.is_authenticated %}
+{#                    {% if user.is_authenticated %}#}
                     <li>
                         <a href="{% url 'servicios' %}">servizos</a>
                     </li>
                      <li>
                         <a href="{% url 'galeria' %}">galería</a>
                     </li>
-                    <li>
-                        <a href="{% url 'fullcalendar' %}">calendario</a>
-                    </li>
-                    <li>
-                       <a href="{% url 'logout' %}">saír</a>
-                    </li>
-                    {% else %}
-                         <li>
-                        <a href="{% url 'servicios' %}">servizos</a>
-                    </li>
-                     <li>
-                        <a href="{% url 'galeria' %}">galería</a>
-                    </li>
-                    <li>
-                        <a href="{% url 'fullcalendar' %}">calendario</a>
-                    </li>
-                    <li>
-                         <a href="{% url 'login' %}">pide unha cita</a>
-                    </li>
-                    {% endif %}
+{#                    <li>#}
+{#                        <a href="{% url 'fullcalendar' %}">calendario</a>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                       <a href="{% url 'logout' %}">saír</a>#}
+{#                    </li>#}
+{#                    {% else %}#}
+{#                         <li>#}
+{#                        <a href="{% url 'servicios' %}">servizos</a>#}
+{#                    </li>#}
+{#                     <li>#}
+{#                        <a href="{% url 'galeria' %}">galería</a>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                        <a href="{% url 'fullcalendar' %}">calendario</a>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                         <a href="{% url 'login' %}">pide unha cita</a>#}
+{#                    </li>#}
+{#                    {% endif %}#}
 
 
                 </ul>
