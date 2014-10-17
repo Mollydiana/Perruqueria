@@ -236,6 +236,7 @@ body {
 
 li a {
 	font-weight: bold;
+    list-style-type: none;
 }
 
 div#toptwo {
@@ -243,5 +244,8 @@ div#toptwo {
     margin-top: 50px;
 }
 
+li {
+    list-style-type: none;
+}
 
 
